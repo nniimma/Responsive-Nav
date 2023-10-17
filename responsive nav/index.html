@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-data">
+                <a href="#" class="nav-logo"><i class="ri-code-s-slash-line"></i> CodeBox</a>
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav-toggle-menu"></i>
+                    <i class="ri-close-line nav-toggle-close"></i>
+                </div>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+
+                    <!-- dropdown 1 -->
+                    <li class="dropdown-item">
+                        <div class="nav-link dropdown-button">
+                            Discover <i class="ri-arrow-down-s-line dropdown-arrow"></i>
+                        </div>
+                        <div class="dropdown-container">
+                            <div class="dropdown-content">
+                                <div class="dropdown-group">
+                                    <div class="dropdown-icon">
+                                        <i class="ri-flashlight-line"></i>
+                                    </div>
+    
+                                    <span class="dropdown-title">Most viewed courses</span>
+    
+                                    <ul class="dropdown-list">
+                                        <li><a href="#" class="dropdown-link">HTML for beginners</a></li>
+                                        <li><a href="#" class="dropdown-link">Advanced CSS</a></li>
+                                        <li><a href="#" class="dropdown-link">JavaScript OPP</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown-group">
+                                    <div class="dropdown-icon">
+                                        <i class="ri-heart-3-line"></i>
+                                    </div>
+    
+                                    <span class="dropdown-title">Popular courses</span>
+    
+                                    <ul class="dropdown-list">
+                                        <li><a href="#" class="dropdown-link">Developement with flutter</a></li>
+                                        <li><a href="#" class="dropdown-link">Web developement with React</a></li>
+                                        <li><a href="#" class="dropdown-link">Backend developement expert</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown-group">
+                                    <div class="dropdown-icon">
+                                        <i class="ri-book-mark-line"></i>
+                                    </div>
+    
+                                    <span class="dropdown-title">Careers</span>
+    
+                                    <ul class="dropdown-list">
+                                        <li><a href="#" class="dropdown-link">Web developement</a></li>
+                                        <li><a href="#" class="dropdown-link">Application developement</a></li>
+                                        <li><a href="#" class="dropdown-link">UI/UX design</a></li>
+                                        <li><a href="#" class="dropdown-link">Informatic security</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown-group">
+                                    <div class="dropdown-icon">
+                                        <i class="ri-file-paper-2-line"></i>
+                                    </div>
+    
+                                    <span class="dropdown-title">Certifications</span>
+    
+                                    <ul class="dropdown-list">
+                                        <li><a href="#" class="dropdown-link">Course certificates</a></li>
+                                        <li><a href="#" class="dropdown-link">Free certifcations</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- dropdown 2 -->
+                    <li class="dropdown-item">
+                        <div class="nav-link dropdown-button">
+                           Recources <i class="ri-arrow-down-s-line dropdown-arrow"></i>
+                        </div>
+                        <div class="dropdown-container">
+                            <div class="dropdown-content">
+                                <div class="dropdown-group">
+                                    <div class="dropdown-icon">
+                                        <i class="ri-code-line"></i>
+                                    </div>
+    
+                                    <span class="dropdown-title">Web templates</span>
+    
+                                    <ul class="dropdown-list">
+                                        <li><a href="#" class="dropdown-link">Free templates</a></li>
+                                        <li><a href="#" class="dropdown-link">Premium templates</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown-group">
+                                    <div class="dropdown-icon">
+                                        <i class="ri-pen-nib-line"></i>
+                                    </div>
+    
+                                    <span class="dropdown-title">Designs</span>
+    
+                                    <ul class="dropdown-list">
+                                        <li><a href="#" class="dropdown-link">Web designs</a></li>
+                                        <li><a href="#" class="dropdown-link">App designs</a></li>
+                                        <li><a href="#" class="dropdown-link">Component design</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown-group">
+                                    <div class="dropdown-icon">
+                                        <i class="ri-apps-2-line"></i>
+                                    </div>
+    
+                                    <span class="dropdown-title">Others</span>
+    
+                                    <ul class="dropdown-list">
+                                        <li><a href="#" class="dropdown-link">Recent blogs</a></li>
+                                        <li><a href="#" class="dropdown-link">Tutorial videos</a></li>
+                                        <li><a href="#" class="dropdown-link">Webinar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav-link">Pricing</a>
+                    </li>
+
+                    <!-- dropdown 3 -->
+                    <li class="dropdown-item">
+                        <div class="nav-link dropdown-button">
+                           Company <i class="ri-arrow-down-s-line dropdown-arrow"></i>
+                        </div>
+                        <div class="dropdown-container">
+                            <div class="dropdown-content">
+                                <div class="dropdown-group">
+                                    <div class="dropdown-icon">
+                                        <i class="ri-community-line"></i>
+                                    </div>
+    
+                                    <span class="dropdown-title">About us</span>
+    
+                                    <ul class="dropdown-list">
+                                        <li><a href="#" class="dropdown-link">About us</a></li>
+                                        <li><a href="#" class="dropdown-link">Suport</a></li>
+                                        <li><a href="#" class="dropdown-link">Contact us</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown-group">
+                                    <div class="dropdown-icon">
+                                        <i class="ri-shield-line"></i>
+                                    </div>
+    
+                                    <span class="dropdown-title">Safety and quality</span>
+    
+                                    <ul class="dropdown-list">
+                                        <li><a href="#" class="dropdown-link">Cookie settings</a></li>
+                                        <li><a href="#" class="dropdown-link">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <script src="script.js"></script>
+</body>
+</html>
